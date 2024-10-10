@@ -2,6 +2,7 @@
 import { defineConfig } from "vite";
 //全局导入导致移动端菜单栏打开迟钝
 import { resolve } from "path";
+// import UnoCSS from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite"; //作用:自动帮我们引入声明的 函数, 并自动生成 ts 类型声明文件。
 import IconsResolver from "unplugin-icons/resolver"; //作用:将图标转换为组件
 import Icons from "unplugin-icons/vite";
