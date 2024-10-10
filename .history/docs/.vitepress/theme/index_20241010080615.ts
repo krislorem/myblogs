@@ -11,7 +11,6 @@ import ListProjects from "./components/ListProjects.vue";
 import "./styles/rainbow.css";
 import "./styles/vars.css";
 import { useRoute } from "vitepress";
-import mediumZoom from "medium-zoom";
 export default {
   ...DefaultTheme,
   setup() {

@@ -1,7 +1,7 @@
 import TwoslashFloatingVue from "@shikijs/vitepress-twoslash/client";
 import "@shikijs/vitepress-twoslash/style.css";
 import "unocss";
-import type { EnhanceAppContext } from "vitepress";
+import type { EnhanceAppContext, useRoute } from "vitepress";
 import "vitepress-theme-demoblock/dist/theme/styles/index.css";
 import DefaultTheme from "vitepress/theme";
 import { h } from "vue";
@@ -10,8 +10,6 @@ import DemoWrap from "./components/DemoWrap.vue";
 import ListProjects from "./components/ListProjects.vue";
 import "./styles/rainbow.css";
 import "./styles/vars.css";
-import { useRoute } from "vitepress";
-import mediumZoom from "medium-zoom";
 export default {
   ...DefaultTheme,
   setup() {
