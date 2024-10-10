@@ -1,1 +1,0 @@
-import{_ as e,b as t,o as a}from"./chunks/framework.CUHrq0uc.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/VueUse.md","filePath":"guide/VueUse.md","lastUpdated":1728491944000}'),s={name:"guide/VueUse.md"};function r(o,d,n,c,i,p){return a(),t("div")}const m=e(s,[["render",r]]);export{_ as __pageData,m as default};
