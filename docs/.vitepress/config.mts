@@ -21,7 +21,7 @@ export default defineConfig({
       light: "vitesse-light",
       dark: "vitesse-black",
     },
-    lineNumbers: true,
+    lineNumbers: false,
     container: {
       tipLabel: "提示",
       warningLabel: "警告",
@@ -202,6 +202,7 @@ function guide() {
         { text: "VueUse", link: "/guide/VueUse" },
         { text: "Element Plus", link: "/guide/ElementPlus" },
         { text: "搜索", link: "/guide/search" },
+        { text: "gitTalk 评论", link: "/guide/gitTalk" },
       ],
     },
   ];
