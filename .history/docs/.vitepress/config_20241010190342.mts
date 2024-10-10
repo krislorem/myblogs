@@ -32,7 +32,7 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: "https://https://myblogs-nu.vercel.appwdddwd",
+    hostname: "https://https://myblogs-nu.vercel.app",
     transformItems(items) {
       return items.filter((item) => !item.url.includes("migration"));
     },
