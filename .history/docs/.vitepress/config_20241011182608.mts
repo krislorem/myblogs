@@ -35,7 +35,7 @@ export default defineConfig({
 
   sitemap: {
     hostname: "https://https://myblogs-nu.vercel.app",
-    lastmodDateOnly: false,
+    lastmodDateOnly: false;
     // transformItems(items) {
     //   return items.filter((item) => !item.url.includes("migration"));
     // },
